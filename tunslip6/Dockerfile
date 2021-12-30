@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 LABEL io.hass.version="VERSION" io.hass.type="addon" io.hass.arch="armv7|amd64"
 
-RUN apk add --no-cache gcc musl-dev
+RUN apk add --no-cache gcc musl-dev linux-headers
 
 COPY tunslip /
 COPY run.sh /
