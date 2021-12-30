@@ -1,6 +1,6 @@
 {
 	"name": "Tunslip builder",
-	"version": "0.13",
+	"version": "0.14",
 	"slug": "tunslip6",
 	"description": "Builds the tunslip6 binary",
 	"url": "https://github.com/mpikkemaat/addon-dev/tree/master/tunslip6",

@@ -4,8 +4,10 @@ echo "Starting build"
 
 ls /
 
-make
+gcc -O2 tunslip6.c tools-utils.c -o tunslip6
 
 echo "Build done"
+
+cp tunslip6 /addons
 
 ls /
