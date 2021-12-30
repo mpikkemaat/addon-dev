@@ -2,9 +2,7 @@
 
 echo "Starting build"
 
-cd /tunslip
-
-ls
+ls /
 
 make
 
