@@ -8,4 +8,4 @@ RUN apk add --no-cache gcc musl-dev
 COPY tunslip /
 COPY run.sh /
 RUN chmod a+x /run.sh
-CMD run.sh
+CMD /run.sh
