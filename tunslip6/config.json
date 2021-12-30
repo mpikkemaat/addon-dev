@@ -1,0 +1,10 @@
+{
+	"name": "Tunslip builder",
+	"version": "0.1",
+	"slug": "tunslip6",
+	"description": "Builds the tunslip6 binary",
+	"url": "https://github.com/mpikkemaat/addon-dev/tree/master/tunslip6",
+	"arch": ["armv7", "armhf", "aarch64", "i386", "amd64"],
+	"executable": "tunslip6-{arch}",
+	"map": ["addons:rw"]
+}
