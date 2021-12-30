@@ -1,6 +1,13 @@
+#!/usr/bin/with-contenv bashio
 
 echo "Starting build"
 
+cd /tunslip
 
-cd /addons
+ls
+
 make
+
+echo "Build done"
+
+ls /
